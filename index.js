@@ -12,7 +12,7 @@ app.use(cors());
 const port = process.env.PORT || 5500;
 
 app.get("/", (req, res) => {
-  res.send("Hello the FootSto app is working working!");
+  res.send("Hello the NewsPortal app is working working!");
 });
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.g5ktv.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
